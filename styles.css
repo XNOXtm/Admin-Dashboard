@@ -1,0 +1,23 @@
+.body {
+    background-color: #dce2ec;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(5, 1fr) ;
+}
+
+.header {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: #f8f8f8;
+}
+
+.sidebar {
+    grid-area: 1 / 1 / 6 / 2;
+    background-color: #208fcf;
+}
+
+.main-content {
+    grid-area: 2 / 2 / 6 / 3;
+}

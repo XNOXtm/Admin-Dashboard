@@ -13,7 +13,7 @@
     background-color: #f8f8f8;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
 }
 .header .search-bar {
     display: flex;
@@ -27,6 +27,12 @@ input {
     border: none;
     border-radius: 20px;
     background-color: #e1e7f0;
+}
+.header .mini-user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .sidebar {
